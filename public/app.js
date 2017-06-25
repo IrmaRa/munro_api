@@ -9,10 +9,6 @@ var initialize = function() {
   });
 }
 
-  // mainMap.addMarker(coords);
-  // mainMap.addInfoWindow(coords, "London");
-  // mainMap.newLocation(, 115.19);
-
   var app = function(){
     var url = 'https://munroapi.herokuapp.com/api/munros';
     var request = new XMLHttpRequest();
@@ -36,7 +32,6 @@ var initialize = function() {
 
   var handleChange = function(event){
 
-  // var ul = document.querySelector('#munros');
   var li = document.querySelector('#munro-info');
 
 
@@ -89,6 +84,7 @@ var showMunro = function(event){
     map: this.googleMap
   });
 }.bind(this);
+
 
 window.addEventListener('load', app);
 window.addEventListener('load', initialize);

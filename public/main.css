@@ -1,10 +1,23 @@
 #main-map {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
+
+
+ul {
+  list-style-type: none;
+}
+
 
 button {
   margin: 20px;
   font-size: 20px;
   border-radius: 10px;
+}
+
+body{
+  background-image: url("https://d3teiib5p3f439.cloudfront.net/news/wp-content/uploads/2016/08/beinn-alligin.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
